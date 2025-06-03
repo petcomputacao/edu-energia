@@ -21,7 +21,7 @@ O repositório do curso é organizado nas seguintes partes, cada qual no seu res
 
 ## Como gerar os arquivos
 
-Para gerar os arquivos do curso, deve-se possuir o ambiente [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX instalado, deve-se apenas executar o script `getFiles.sh`. Os arquivos serão gerados no diretório raiz do repositório.
+Para gerar os arquivos do curso, deve-se possuir o ambiente [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX instalado, deve-se apenas executar o script `geraArquivos.sh`. Os arquivos serão gerados no diretório raiz do repositório.
 
 ## Referências
 - [Introdução à análise descritiva de dados funcionais](https://lume.ufrgs.br/handle/10183/24870)
@@ -36,5 +36,5 @@ Para gerar os arquivos do curso, deve-se possuir o ambiente [LaTeX](https://www.
 - [Manual de gerenciamento de energia](https://drive.google.com/file/d/1h2Uac0R3edJ16i4aRez63vrwc105FasG/view?usp=drive_link)
 - [Dashboard do Smartcampus UFCG](https://ufcg.liteme.com.br/)
 - [Grandezas elétricas: conceitos básicos](https://wiki.sj.ifsc.edu.br/images/b/ba/Introducao_Tens%c3%a3o_-_Corrente_-_Potencia_-_Energia.pdf)
-- [METODOLOGIAS ATIVAS: EM BUSCA DE UMA CARACTERIZAÇÃO E DEFINIÇÃO](https://periodicos.ufmg.br/index.php/edrevista/article/view/39442)
+- [Metodologias ativas: em busca de uma caracterização e definição](https://periodicos.ufmg.br/index.php/edrevista/article/view/39442)
 
