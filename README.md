@@ -13,15 +13,17 @@ O repositório do curso é organizado nas seguintes partes, cada qual no seu res
 - **Plano de curso**: objetivos, ementa e metodologia do curso;
 - **Apresentação**: apresentação do modelo de ensino/aprendizagem adotado e na sua importância durante todo o percurso;
 - Unidade 1 - **Lógica de programação e linguagem Python**: introdução à lógica de programação e à linguagem Python;
-- Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à análise de dados utilizando Python;
-- Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos conteúdos e bateria de estudos de caso;
-- Unidade 4 - **Análise descritiva de dados (parte 2)**: aprofundamento dos conteúdos e bateria de estudos de caso;
+- Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à análise de dados utilizando Python e projeto 1;
+- Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos conteúdos, bateria de estudos de caso e projeto 2;
+- Unidade 4 - **Análise descritiva de dados (parte 2)**: aprofundamento dos conteúdos, bateria de estudos de caso e projeto 3;
 - **Desafio**: projeto final;
 - **Roadmap**: sugestão de trilha de conhecimento para a área, com indicações de materiais e de percurso lógico.
 
-## Como gerar os arquivos
+## Como acessar o conteúdo do curso
 
-Para gerar os arquivos do curso, deve-se possuir o ambiente [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX instalado, deve-se apenas executar o script `geraArquivos.sh`. Os arquivos serão gerados no diretório raiz do repositório.
+Para gerar os documentos PDF do curso, deve-se possuir o ambiente [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX instalado, deve-se apenas executar os scripts `geraDoc.sh` de cada unidade em questão.
+
+Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb` correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e usar.
 
 ## Referências
 - [Introdução à análise descritiva de dados funcionais](https://lume.ufrgs.br/handle/10183/24870)
