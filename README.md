@@ -21,7 +21,7 @@ respectivo diretório:
 - **Apresentação**: apresentação do modelo de ensino/aprendizagem adotado e na
 sua importância durante todo o percurso;
 - Unidade 1 - **Lógica de programação e linguagem Python**: introdução à lógica
-de programação e à linguagem Python ;
+de programação e à linguagem Python;
 - Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à
 análise de dados utilizando Python;
 - Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos
@@ -43,7 +43,7 @@ Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
 usar.
 
-### Links para material armazenado do Drive do PETComp
+### Links para materiais do Drive
 
 - [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=drive_link);
 - [Unidade 1 - Google Colab](https://drive.google.com/file/d/1sIB3dv9FrP4aUVTso3akDFfAFYJ14Ici/view?usp=sharing);
