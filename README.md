@@ -4,28 +4,58 @@
 
 ### Objetivos
 
-O objetivo deste curso é capacitar os participantes a coletar, classificar, visualizar e analisar dados de consumo de energia elétrica, permitindo um ferramental base para intervir sobre a realidade. Para cumprir esse objetivo, fornecemos um ambiente de teoria e prática em conceitos de, especialmente, computação, eletricidade e estatística. Nesse sentido, utilizamos a metodologia do ensino baseado em problemas (PBL, na sigla em inglês) para criar um ambiente imersivo e o mais próximo possível de situações reais.
+O objetivo deste curso é capacitar os participantes a coletar, classificar,
+visualizar e analisar dados de consumo de energia elétrica, permitindo um
+ferramental base para intervir sobre a realidade. Para cumprir esse objetivo,
+fornecemos um ambiente de teoria e prática em conceitos de, especialmente,
+computação, eletricidade e estatística. Nesse sentido, utilizamos a metodologia
+do ensino baseado em problemas (PBL, na sigla em inglês) para criar um ambiente
+imersivo e o mais próximo possível de situações reais.
 
 ### Organização
 
-O repositório do curso é organizado nas seguintes partes, cada qual no seu respectivo diretório:
+O repositório do curso é organizado nas seguintes partes, cada qual no seu
+respectivo diretório:
 
 - **Plano de curso**: objetivos, ementa e metodologia do curso;
-- **Apresentação**: apresentação do modelo de ensino/aprendizagem adotado e na sua importância durante todo o percurso;
-- Unidade 1 - **Lógica de programação e linguagem Python**: introdução à lógica de programação e à linguagem Python;
-- Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à análise de dados utilizando Python e projeto 1;
-- Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos conteúdos, bateria de estudos de caso e projeto 2;
-- Unidade 4 - **Análise descritiva de dados (parte 2)**: aprofundamento dos conteúdos, bateria de estudos de caso e projeto 3;
+- **Apresentação**: apresentação do modelo de ensino/aprendizagem adotado e na
+sua importância durante todo o percurso;
+- Unidade 1 - **Lógica de programação e linguagem Python**: introdução à lógica
+de programação e à linguagem Python ;
+- Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à
+análise de dados utilizando Python;
+- Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos
+conteúdos e bateria de estudos de caso;
+- Unidade 4 - **Análise descritiva de dados (parte 2)**: aprofundamento dos
+conteúdos e bateria de estudos de caso;
 - **Desafio**: projeto final;
-- **Roadmap**: sugestão de trilha de conhecimento para a área, com indicações de materiais e de percurso lógico.
+- **Roadmap**: sugestão de trilha de conhecimento para a área, com indicações de
+materiais e de percurso lógico.
 
 ## Como acessar o conteúdo do curso
 
-Para gerar os documentos PDF do curso, deve-se possuir o ambiente [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX instalado, deve-se apenas executar os scripts `geraDoc.sh` de cada unidade em questão.
+Para gerar os documentos PDF do curso, deve-se possuir o ambiente
+[LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX
+instalado, deve-se apenas executar os scripts `geraDoc.sh` de cada unidade em
+questão.
 
-Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb` correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e usar.
+Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
+correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
+usar.
+
+### Links para material armazenado do Drive do PETComp
+
+- [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=drive_link);
+- [Unidade 1 - Google Colab](https://drive.google.com/file/d/1sIB3dv9FrP4aUVTso3akDFfAFYJ14Ici/view?usp=sharing);
+- Unidade 1 - PDF do desafio;
+- [Unidade 3 - Google Colab](https://colab.research.google.com/drive/1e3EBZ5mREmAHOAbp8TggHGFMPK5VrTM8?usp=sharing);
+- Unidade 4 - Google Colab;
+- Unidade 4 - PDF do desafio;
+- PDF do desafio final;
+- PDF do roadmap.
 
 ## Referências
+
 - [Introdução à análise descritiva de dados funcionais](https://lume.ufrgs.br/handle/10183/24870)
 - [Introdução à simulação discreta](http://sites.poli.usp.br/d/pmr5008/arquivos/apostila_simulacao.pdf)
 - [Estatística descritiva](https://www.professores.uff.br/anafarias/wp-content/uploads/sites/210/2021/01/estdesc-0.pdf)
@@ -39,4 +69,3 @@ Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 - [Dashboard do Smartcampus UFCG](https://ufcg.liteme.com.br/)
 - [Grandezas elétricas: conceitos básicos](https://wiki.sj.ifsc.edu.br/images/b/ba/Introducao_Tens%c3%a3o_-_Corrente_-_Potencia_-_Energia.pdf)
 - [Metodologias ativas: em busca de uma caracterização e definição](https://periodicos.ufmg.br/index.php/edrevista/article/view/39442)
-
