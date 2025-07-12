@@ -21,7 +21,7 @@ respectivo diretório:
 - **Apresentação**: apresentação do modelo de ensino/aprendizagem adotado e na
 sua importância durante todo o percurso;
 - Unidade 1 - **Lógica de programação e linguagem Python**: introdução à lógica
-de programação e à linguagem Python ;
+de programação e à linguagem Python;
 - Unidade 2 - **Eletricidade e análise de dados**: introdução à eletricidade e à
 análise de dados utilizando Python;
 - Unidade 3 - **Análise descritiva de dados (parte 1)**: aprofundamento dos
