@@ -43,7 +43,7 @@ Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
 usar.
 
-### Links para material armazenado do Drive do PETComp
+### Links para material armazenado no Drive
 
 - [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=sharing);
 - [Unidade 1 - Google Colab](https://colab.research.google.com/drive/1Z_hxgShlP0eOMMlMdLz3aa1wIUegKVRV?usp=sharing);
