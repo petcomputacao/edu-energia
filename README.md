@@ -34,10 +34,14 @@ materiais e de percurso lógico.
 
 ## Como acessar o conteúdo do curso
 
-Para gerar os documentos PDF do curso, deve-se possuir o ambiente
+Para gerar o documento PDF do plano de curso, deve-se possuir o ambiente
 [LaTeX](https://www.latex-project.org/) instalado na máquina e, com o LaTeX
-instalado, deve-se apenas executar os scripts `geraDoc.sh` de cada unidade em
+instalado, deve-se apenas executar o script `geraDoc.sh` do diretório em
 questão.
+
+Já para acessar os documentos PDF dos desafios de cada unidade, deve-se possuir
+o `pandoc` instalado na máquina e as dependências do LaTeX acima. Com isso,
+deve-se executar `pandoc desafio-n.md -o desafio-n.pdf`.
 
 Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
@@ -52,8 +56,8 @@ usar.
 - Unidade 2 - PDF do desafio;
 - [Unidade 3 - Google Colab](https://colab.research.google.com/drive/1e3EBZ5mREmAHOAbp8TggHGFMPK5VrTM8?usp=sharing);
 - Unidade 3 - PDF do desafio;
-- Unidade 4 - Google Colab;
-- Unidade 4 - PDF do desafio;
+- [Unidade 4 - Google Colab](https://colab.research.google.com/drive/1UFeVv8lfyRd0gOGzYXMjhlzG58pqw2DV?usp=sharing);
+- [Unidade 4 - PDF do desafio](https://drive.google.com/file/d/1ROOmpxqKEUOrZBuJGLk-omxCyfkCn6iX/view?usp=sharing);
 - PDF do desafio final;
 - PDF do roadmap.
 
