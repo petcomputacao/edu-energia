@@ -47,6 +47,8 @@ Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
 usar.
 
+Para acessar a landing page do curso, acesse [este link](https://www.figma.com/design/z7I1QmLWRGm2kXrtEK0PQM/mvp---landing-page?node-id=9-194&t=mGMSgilBeGjdQ3YR-1).
+
 ### Links para materiais do Drive
 
 - [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=drive_link);
