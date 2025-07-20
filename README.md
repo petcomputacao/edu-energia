@@ -54,10 +54,10 @@ Para acessar a landing page do curso, acesse [este link](https://www.figma.com/d
 - [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=drive_link);
 - [Unidade 1 - Google Colab](https://drive.google.com/file/d/1sIB3dv9FrP4aUVTso3akDFfAFYJ14Ici/view?usp=sharing);
 - [Unidade 1 - PDF do desafio](https://drive.google.com/file/d/1KtWOZibTdmfROaxj9UBtkpRfUrjYLXYz/view?usp=sharing);
-- Unidade 2 - Google Colab;
-- Unidade 2 - PDF do desafio;
+- [Unidade 2 - Google Colab](https://colab.research.google.com/drive/1qs_znvimcriPezOV4vOGyS9zk1Rcs8Hg?usp=sharing);
+- [Unidade 2 - PDF do desafio](https://drive.google.com/file/d/1n3XLXgbCKhRJiYQVHgasdxULHTccWaH4/view?usp=sharing);
 - [Unidade 3 - Google Colab](https://colab.research.google.com/drive/1e3EBZ5mREmAHOAbp8TggHGFMPK5VrTM8?usp=sharing);
-- Unidade 3 - PDF do desafio;
+- [Unidade 3 - PDF do desafio](https://drive.google.com/file/d/1wNfGNudJSSs4CVvfne5tnlG6GSkBUvQE/view?usp=sharing);
 - [Unidade 4 - Google Colab](https://colab.research.google.com/drive/1UFeVv8lfyRd0gOGzYXMjhlzG58pqw2DV?usp=sharing);
 - [Unidade 4 - PDF do desafio](https://drive.google.com/file/d/1ROOmpxqKEUOrZBuJGLk-omxCyfkCn6iX/view?usp=sharing);
 - PDF do desafio final;
