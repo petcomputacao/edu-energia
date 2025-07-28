@@ -47,11 +47,12 @@ Já para acessar os Jupyter Notebook das aulas, basta abrir os arquivos `.ipynb`
 correspondentes e, dentro do ambiente Google Colab, fazer upload do arquivo e
 usar.
 
-Para acessar a landing page do curso, acesse [este link](https://www.figma.com/design/z7I1QmLWRGm2kXrtEK0PQM/mvp---landing-page?node-id=9-194&t=mGMSgilBeGjdQ3YR-1).
+Para acessar a página do curso, acesse [este link](https://petcomputacao.github.io/edu-energia/).
 
 ### Links para materiais do Drive
 
 - [PDF do Plano de curso](https://drive.google.com/file/d/10epVJ7Zstce4crIfPR6fQPywD8jfa4-g/view?usp=drive_link);
+- [Dados do SmartCampus UFCG](https://drive.google.com/file/d/1dyFr1HD6S9HCNahafCQhGuN9a6D_AjoM/view?usp=sharing);
 - [Unidade 1 - Google Colab](https://drive.google.com/file/d/1sIB3dv9FrP4aUVTso3akDFfAFYJ14Ici/view?usp=sharing);
 - [Unidade 1 - PDF do desafio](https://drive.google.com/file/d/1KtWOZibTdmfROaxj9UBtkpRfUrjYLXYz/view?usp=sharing);
 - [Unidade 2 - Google Colab](https://colab.research.google.com/drive/1qs_znvimcriPezOV4vOGyS9zk1Rcs8Hg?usp=sharing);
