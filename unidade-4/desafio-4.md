@@ -2,41 +2,28 @@
 
 ## Contexto
 
-A empresa **Energia Sustentável S.A.** está investigando disparidades no consumo
-mensal de energia elétrica (em kWh) entre dois bairros de uma cidade. O objetivo
-é identificar padrões de consumo e subsidiar políticas públicas. Você foi
-contratado(a) como analista de dados para realizar uma análise comparativa
-completa.
+O **SmartusCampus UFCG** está investigando disparidades no consumo mensal de
+energia elétrica (em kWh) entre os blocos SPLAB e LSD. O objetivo é identificar
+padrões de consumo e tomar medidas a respeito. Você foi contratado(a) como
+analista de dados para realizar uma análise comparativa.
 
 ## Dados fornecidos
 
-Foram fornecidas amostras de consumo de 50 domicílios de cada bairro.
+Foram fornecidas amostras de consumo de todos os blocos, com informações de
+identificação do medidor, dia da medição e valor da potência ativa, dentre
+outros dados irrelevantes para a análise.
 
-### Bairro A (consumo moderado)
-
-[182, 195, 203, 210, 215, 222, 225, 228, 230, 235,
- 238, 240, 242, 245, 248, 250, 252, 255, 258, 260,
- 262, 265, 268, 270, 272, 275, 278, 280, 285, 290,
- 292, 295, 298, 300, 305, 308, 310, 315, 320, 325,
- 330, 335, 340, 345, 350, 370, 385, 420, 450, 480]
-
-### Bairro B (consumo elevado)
-
-[210, 230, 245, 255, 265, 275, 285, 295, 305, 315,
- 325, 335, 345, 355, 365, 375, 385, 395, 405, 415,
- 425, 435, 445, 455, 465, 475, 485, 495, 505, 515,
- 525, 535, 545, 555, 565, 575, 585, 595, 605, 615,
- 625, 635, 645, 655, 665, 675, 685, 695, 705, 600]
+Estes dados constam no arquivo `.csv` disponibilizado.
 
 ## Problema
 
 ### Parte 1: medidas de tendência central
 
-Calcule, para cada bairro:
+Calcule, para cada bloco:
 
-- Média aritmética
-- Mediana
-- Moda (se aplicável)
+- Média aritmética do consumo (kW/h)
+- Mediana do consumo (kW/h)
+- Moda do consumo (se aplicável) (kW/h)
 
 ### Parte 2: medidas de variabilidade
 
@@ -48,17 +35,17 @@ Calcule, para cada conjunto:
 
 ### Parte 3: medidas de posição
 
-Para o bairro A:
+Para o bloco LSD:
 
 - Calcule os quadris 1 (25º percentil) e 3 (75º percentil)
-- Determine o escore-z para uma residência que consome 380 kWh
-- Determine se este consumo de 380 kWh é atípico no bairro
+- Determine o escore-z para uma hora em que foi consumido 17017 kWh
+- Determine se este consumo de 17017 kWh é atípico no bloco
 
 ### Parte 4: Construção de boxplots
 
-Crie boxplots comparativos que identifiquem outliers e determine qual bairro tem
+Crie boxplots comparativos que identifiquem outliers e determine qual bloco tem
 a maior dispersão.
 
 ### Parte 5: análise gráfica complementar
 
-Gere gráficos complementares para ambos os bairros e compare-os.
+Gere gráficos complementares para ambos os blocos e compare-os.

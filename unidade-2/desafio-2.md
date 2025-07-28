@@ -2,25 +2,19 @@
 
 ## Contexto
 
-Você foi contratado para analisar a eficiência energética de um motor elétrico
-em uma pequena indústria.
+O **SmartusCampus UFCG** está investigando padrões do consumo de energia
+elétrica (em kWh) entre os blocos CEEI e LAT. O objetivo é calcular o gasto com
+energia elétrica de cada bloco.
 
 ## Dados fornecidos
 
-O motor tem as seguintes características:
+Foram fornecidas amostras de consumo de todos os blocos, com informações de
+identificação do medidor, dia da medição e valor da potência ativa, dentre
+outros dados irrelevantes para a análise.
 
-- Tensão de alimentação: 220 V
-- Corrente medida: 10 A
-- Fator de potência: 0.85
-- Potência mecânica útil fornecida: 1.5 kW
+Estes dados constam no arquivo `.csv` disponibilizado.
 
 ## Problema
 
-Sua tarefa é escrever um programa em Python que:
-
-- Calcule a potência aparente, ativa e reativa do motor
-- Determine a eficiência energética do motor
-- Sugira se o motor está operando dentro de parâmetros aceitáveis de eficiência
-(considerar >80% como bom)
-- Calcule o custo mensal de operação (considerando 8h/dia, 22 dias/mês e tarifa
-de R$0,80/kWh)
+Sua tarefa é escrever um programa em Python que calcule o custo mensal
+de operação (considerando uma tarifa de R$0,80/kWh).
