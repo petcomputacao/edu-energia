@@ -14,15 +14,16 @@ responder às perguntas que se seguem.
 
 Colunas:
 
-- `medidor` (identificação do bloco)
-- `hora` (data e hora da medição, em intervalos de 1 hora)
-- `potencia_ativa` (em kW)
-- `potencia_reativa` (em kVAR)
-- `fator_potencia` (adimensional)
-- `tensao` (em V)
-- `corrente` (em A)
+- `Medidor` (identificação do bloco)
+- `Data_hora` (data e hora da medição, em intervalos de 1 hora)
+- `Potencia_ativa` (em kW)
+- `Potencia_reativa` (em kVAR)
+- `Fator_potencia` (adimensional)
+- `Corrente_fase_a` (em A)
+- `Corrente_fase_b` (em A)
+- `Corrente_fase_c` (em A)
 
-Estes dados constam no arquivo `dados.csv` disponibilizado.
+Estes dados constam no arquivo `dados.csv` disponibilizado no site do minicurso.
 
 ## Tarefas
 
@@ -31,6 +32,7 @@ Estes dados constam no arquivo `dados.csv` disponibilizado.
 - Importe os dados usando `pandas`
 - Verifique e trate valores ausentes ou inconsistentes
 - Converta a coluna `hora` para o tipo `datetime`
+- Converta as colunas numéricas para o tipo `float`
 
 ### Parte 2: análise exploratória básica
 
@@ -48,7 +50,7 @@ por hora)
 ### Parte 4: análise de fator de potência
 
 - O fator de potência indica e eficiência do uso de energia. Valores abaixo de
-0,9 podem indicar desperdício
+0,92 podem indicar desperdício
 - Plote um histograma do fator de potência e identifique se há blocos com baixa
 eficiência
 
@@ -59,7 +61,7 @@ cada fase) usando um gráfico de dispersão
 
 ### Parte 6: relatório final
 
-Sintetize suas descobertas em um parágrafo, destacando:
+Sintetize suas descobertas, destacando:
 
 - Qual bloco tem o maior consumo médio?
 - Em quais horários ocorrem picos de demanda?
