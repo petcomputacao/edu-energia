@@ -10,5 +10,4 @@ pandoc desafios/desafio-final.md -o docs/assets/desafio-final.pdf
 # Gerando arquivo PDF para o plano de curso
 cd plano-de-curso
 pdflatex main.tex
-rm main.aux main.log main.out
-mv main.pdf ../docs/assets/plano-de-curso.pdf
+cp main.pdf ../docs/assets/plano-de-curso.pdf
