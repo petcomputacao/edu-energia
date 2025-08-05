@@ -1,0 +1,15 @@
+# Referências usadas
+
+- [Introdução à análise descritiva de dados funcionais](https://lume.ufrgs.br/handle/10183/24870)
+- [Introdução à simulação discreta](http://sites.poli.usp.br/d/pmr5008/arquivos/apostila_simulacao.pdf)
+- [Estatística descritiva](https://www.professores.uff.br/anafarias/wp-content/uploads/sites/210/2021/01/estdesc-0.pdf)
+- [Análise descritiva de dados](https://www.est.ufmg.br/portal/wp-content/uploads/2023/01/RTE-02-2002.pdf)
+- [Curso de Ciência de Dados do prof. Nazareno](https://github.com/nazareno/ciencia-de-dados-1)
+- [Drive do IC de Amanda](https://drive.google.com/drive/u/0/folders/1c2eJZx6SEoJg_WaIXz9OD299vtQ1tfUT)
+- [Grandezas elétricas básicas](https://docs.google.com/document/d/1_CGI3za_DSrqnzN3kzuCLzxPFl6Frx79VqxqjqlddP0/edit?usp=sharing)
+- [E-data-Edu](https://docs.google.com/presentation/d/1KXpuBLwAErxynKEN-a640iHjF8xgfqCuL0ylFwabUgk/edit?usp=sharing)
+- [Manual de tarifação](https://drive.google.com/file/d/1dQ5p3Wlc4ncerq6A46uAQFyG_kIvwtZn/view?usp=drive_link)
+- [Manual de gerenciamento de energia](https://drive.google.com/file/d/1h2Uac0R3edJ16i4aRez63vrwc105FasG/view?usp=drive_link)
+- [Dashboard do Smartcampus UFCG](https://ufcg.liteme.com.br/)
+- [Grandezas elétricas: conceitos básicos](https://wiki.sj.ifsc.edu.br/images/b/ba/Introducao_Tens%c3%a3o_-_Corrente_-_Potencia_-_Energia.pdf)
+- [Metodologias ativas: em busca de uma caracterização e definição](https://periodicos.ufmg.br/index.php/edrevista/article/view/39442)
