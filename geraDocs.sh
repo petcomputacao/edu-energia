@@ -14,4 +14,4 @@ cp main.pdf ../docs/assets/plano-de-curso.pdf
 
 # Gerando arquivos PDF para guia de aprendizagem e roadmap
 pandoc outros-documentos/guia-aprendizagem.md -o docs/assets/guia-aprendizagem.pdf
-pandoc outros-documentos/roadmap.md -o docs/roadmap.pdf
+pandoc outros-documentos/roadmap.md -o docs/assets/roadmap.pdf
