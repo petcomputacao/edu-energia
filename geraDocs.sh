@@ -1,17 +1,15 @@
 #!/bin/bash
 
-# Gerando arquivos PDF para os desafios
+# Gerando arquivos PDF para os desafios e outros documentos
 pandoc desafios/desafio-1.md -o docs/assets/desafio-1.pdf
 pandoc desafios/desafio-2.md -o docs/assets/desafio-2.pdf
 pandoc desafios/desafio-3.md -o docs/assets/desafio-3.pdf
 pandoc desafios/desafio-4.md -o docs/assets/desafio-4.pdf
 pandoc desafios/desafio-final.md -o docs/assets/desafio-final.pdf
+pandoc outros-documentos/roadmap.md -o docs/assets/roadmap.pdf
+pandoc outros-documentos/dicionario.md -o docs/assets/dicionario.pdf
 
 # Gerando arquivo PDF para o plano de curso
 cd plano-de-curso
 pdflatex main.tex
 cp main.pdf ../docs/assets/plano-de-curso.pdf
-
-# Gerando arquivos PDF para guia de aprendizagem e roadmap
-pandoc outros-documentos/guia-aprendizagem.md -o docs/assets/guia-aprendizagem.pdf
-pandoc outros-documentos/roadmap.md -o docs/assets/roadmap.pdf
