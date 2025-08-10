@@ -1,6 +1,6 @@
 # Desafio: análise do consumo de energia em domicílios brasileiros
 
-## Contexto
+## Problema
 
 Você foi contratado como analista de dados para estudar o consumo de energia
 elétrica em domicílios brasileiros. O objetivo é identificar padrões, calcular
@@ -19,7 +19,14 @@ Foram fornecidos os seguintes dados:
 
 Os valores estão em kWh/mês.
 
-## Problema
+## Perguntas que você deve ser capaz de responder
+
+1. Quais as médias de consumo das regiões?
+2. Qual o menor e maior valor?
+3. Os valores variam muito entre si?
+4. O consumo segue algum padrão entre as regiões?
+
+## Tarefas
 
 ### Parte 1: cálculo de estatísticas básicas
 

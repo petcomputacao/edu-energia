@@ -1,6 +1,6 @@
 # Desafio: trabalhando com a classificação dos dados
 
-## Contexto
+## Problema
 
 Uma empresa a privada está pensando em analisar a eficiência energética de um
 determinado setor da UFCG para ver a viabilidade de colocar placas solares,
@@ -21,7 +21,14 @@ investimento.
 | 24/06/2024 03:00 | Medidor LSD | 127.93     | 44.36        | 16739.53      | 0.920             |
 | 24/06/2024 04:00 | Medidor LSD | 127.93     | 43.91        | 16700.73      | 0.922             |
 
-## Problema
+## Perguntas que você deve ser capaz de responder
+
+1. Quais os tipos de variáveis das colunas?
+2. Os valores de consumo são, em sua maioria, baixos, médios ou altos?
+3. Como o consumo evoluiu entre os horários?
+4. Existe tendência visível entre a corrente o consumo?
+
+## Tarefas
 
 ### Parte 1: classificação de variáveis
 

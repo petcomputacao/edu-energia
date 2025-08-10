@@ -1,6 +1,6 @@
 # Desafio final: consumo de energia em bairros residenciais
 
-## Contexto
+## Problema
 
 Você é analista de dados da universidade, responsável por monitorar e otimizar
 o consumo de energia nos diferentes blocos do campus. Recentemente, a reitoria
@@ -24,6 +24,15 @@ Colunas:
 - `Corrente_fase_c` (em A)
 
 Estes dados constam no arquivo `dados.csv` disponibilizado no site do minicurso.
+
+## Perguntas que você deve ser capaz de responder
+
+1. Quais as média, mediana e desvio padrão para as variáveis numéricas?
+2. Quais os consumos médios de energia dos blocos?
+3. Como a potência varia ao longo do tempo?
+4. Quais os horários de pico de consumo?
+5. Os blocos são eficientes?
+6. Há correlação entre a potência ativa e a corrente?
 
 ## Tarefas
 

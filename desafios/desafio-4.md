@@ -1,6 +1,6 @@
 # Desafio: consumo de energia em blocos da universidade
 
-## Contexto
+## Problema
 
 O **SmartusCampus UFCG** está investigando disparidades no consumo mensal de
 energia elétrica (em kWh) entre os blocos SPLAB e LSD. O objetivo é identificar
@@ -15,7 +15,15 @@ outros dados irrelevantes para a análise.
 
 Estes dados constam no arquivo `.csv` disponibilizado.
 
-## Problema
+## Perguntas que você deve ser capaz de responder
+
+1. Qual a média, mediana e moda de consumo dos blocos?
+2. Qual a amplitude total, desvio padrão e coeficiente de variação dos
+conjuntos?
+3. Um consumo de 17017 kWh é atípico?
+4. Qual dos blocos tem a maior dispersão? E a menor?
+
+## Tarefa
 
 ### Parte 1: medidas de tendência central
 
