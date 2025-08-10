@@ -1,6 +1,8 @@
-# Desafio final: consumo de energia em bairros residenciais
+---
+title: "Desafio final: padrões de consumo da UFCG com dados do SmartCampus"
+---
 
-## Problema
+# Problema
 
 Você é analista de dados da universidade, responsável por monitorar e otimizar
 o consumo de energia nos diferentes blocos do campus. Recentemente, a reitoria
@@ -10,7 +12,7 @@ possíveis desperdícios, horários de pico e oportunidades de economia.
 Seu desafio é analisar os dados de consumo de energia dos últimos meses e
 responder às perguntas que se seguem.
 
-## Dados fornecidos
+# Dados fornecidos
 
 Colunas:
 
@@ -25,7 +27,7 @@ Colunas:
 
 Estes dados constam no arquivo `dados.csv` disponibilizado no site do minicurso.
 
-## Perguntas que você deve ser capaz de responder
+# Perguntas que você deve ser capaz de responder
 
 1. Quais as média, mediana e desvio padrão para as variáveis numéricas?
 2. Quais os consumos médios de energia dos blocos?
@@ -34,41 +36,41 @@ Estes dados constam no arquivo `dados.csv` disponibilizado no site do minicurso.
 5. Os blocos são eficientes?
 6. Há correlação entre a potência ativa e a corrente?
 
-## Tarefas
+# Tarefas
 
-### Parte 1: carregamento e limpeza dos dados
+## Carregamento e limpeza dos dados
 
 - Importe os dados usando `pandas`
 - Verifique e trate valores ausentes ou inconsistentes
 - Converta a coluna `hora` para o tipo `datetime`
 - Converta as colunas numéricas para o tipo `float`
 
-### Parte 2: análise exploratória básica
+## Análise exploratória básica
 
 - Calcule estatísticas descritivas (média, mediana, desvio padrão) para cada
 variável numérica
 - Compare o consumo médio de energia (potência ativa) entre os diferentes blocos
 
-### Parte 3: identificação de padrões temporais
+## Identificação de padrões temporais
 
 - Crie um gráfico de linha (usando `matplotlib`) mostrando a variação da
 potência ativa ao longo do tempo para um bloco específico
 - Identifique os horários de pico de consumo em um dia típico (agregue os dados
 por hora)
 
-### Parte 4: análise de fator de potência
+## Análise de fator de potência
 
 - O fator de potência indica e eficiência do uso de energia. Valores abaixo de
 0,92 podem indicar desperdício
 - Plote um histograma do fator de potência e identifique se há blocos com baixa
 eficiência
 
-### Parte 5: correlação entre variáveis
+## Correlação entre variáveis
 
 - Verifique se há correlação entre a potência ativa e a corrente (calcular para
 cada fase) usando um gráfico de dispersão
 
-### Parte 6: relatório final
+## Relatório final
 
 Sintetize suas descobertas, destacando:
 

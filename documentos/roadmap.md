@@ -1,6 +1,8 @@
-# Roadmap
+---
+title: "Roadmap do Minicurso de educação em dados de energia elétrica do SmartCampus UFCG"
+---
 
-## Sobre energia
+# Sobre energia
 
 - [Grandezas elétricas básicas](https://pt.khanacademy.org/science/physics/circuits-topic/circuits-resistance/a/ee-voltage-and-current)
 - [Introdução a medidas elétricas](https://www.feis.unesp.br/Home/departamentos/engenhariaeletrica/capitulo-1_medidas-eletricas_fabiobleao.pdf)
@@ -8,7 +10,7 @@
 - [Villate: eletricidade, magnetismo e circuitos](https://macbeth.if.usp.br/~gusev/eletricidade1.pdf)
 - [Eletricidade Geral](https://www.academia.edu/40227407/Eletricidade_geral)
 
-## Sobre análise descritiva de dados
+# Sobre análise descritiva de dados
 
 - [Curso Ciência de dados](https://canvas.instructure.com/courses/1155772/modules)
 - [Tipos de dados](https://drive.google.com/drive/folders/1IrEhSH8ZrFCGwVnPHeklaOUpmSicsIBe)
@@ -17,7 +19,7 @@
 - [Distribuição de frequência](https://cesad.ufs.br/ORBI/public/uploadCatalago/11395623032022Aula_05.pdf)
 - [Visualização Gráfica de distribuições](https://drive.google.com/drive/folders/1IrEhSH8ZrFCGwVnPHeklaOUpmSicsIBe)
 
-## Sobre Python
+# Sobre Python
 
 - [Pense em python - Português](https://www.kufunda.net/publicdocs/Pense em Python.pdf)
 - [Python Básico](https://solyd.com.br/cursos/python-basico/)

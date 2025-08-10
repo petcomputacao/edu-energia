@@ -1,4 +1,6 @@
-# Dicionário dos dados
+---
+title: "Dicionário dos dados"
+---
 
 Os dados do SmartCampus UFCG, contidos no arquivo `dados.csv`, contém as
 seguintes colunas, cada qual com sua respectiva descrição:

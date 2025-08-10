@@ -1,0 +1,10 @@
+---
+author: "Grupo PET Computação UFCG"
+date: "Agosto de 2025"
+location: "Campina Grande - PB"
+mainfont: "Times New Roman"
+fontsize: 12pt
+documentclass: article
+papersize: a4
+geometry: "margin=1in"
+---

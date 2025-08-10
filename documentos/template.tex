@@ -1,0 +1,75 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{ragged2e}
+\usepackage{calc}
+\usepackage{etoolbox}
+
+% Configurações de geometria
+\geometry{a4paper, left=4cm, right=4cm, top=4cm, bottom=4cm}
+
+% Espaçamento entre linhas
+\onehalfspacing
+
+% Formatação de seções
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{1em}{}
+\titleformat{\subsubsection}{\normalsize\bfseries}{\thesubsubsection.}{1em}{}
+
+% Formatação de listas
+\setlist[enumerate]{label=\arabic*., leftmargin=*}
+\setlist[enumerate,2]{label=(\alph*)}
+\setlist[itemize]{leftmargin=*}
+
+% Fix for Pandoc's tightlist
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Metadados
+\title{$title$}
+\author{$author$}
+\date{$date$}
+
+% Configurações do hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={$title$},
+    pdfpagemode=FullScreen,
+}
+
+\begin{document}
+
+% Capa personalizada
+\begin{titlepage}
+  \centering
+  
+  \IfFileExists{logo-pet.png}{
+    \includegraphics[width=0.3\textwidth]{logo-pet.png} \par
+  }{}
+  
+  \vspace*{\fill}
+  
+  {\Huge\bfseries $title$ \par}
+  \vspace{5cm}
+  
+  \vspace*{\fill}
+  
+  {\large $location$ \\ $date$ \par}
+\end{titlepage}
+
+$body$
+
+\end{document}

@@ -1,13 +1,15 @@
-# Desafio: análise do consumo de energia em domicílios brasileiros
+---
+title: "Desafio: análise do consumo de energia em domicílios brasileiros"
+---
 
-## Problema
+# Problema
 
 Você foi contratado como analista de dados para estudar o consumo de energia
 elétrica em domicílios brasileiros. O objetivo é identificar padrões, calcular
 estatísticas básicas e gerar visualizações que ajudem a entender o consumo médio
 para cada região do país.
 
-## Dados fornecidos
+# Dados fornecidos
 
 Foram fornecidos os seguintes dados:
 
@@ -19,16 +21,16 @@ Foram fornecidos os seguintes dados:
 
 Os valores estão em kWh/mês.
 
-## Perguntas que você deve ser capaz de responder
+# Perguntas que você deve ser capaz de responder
 
 1. Quais as médias de consumo das regiões?
 2. Qual o menor e maior valor?
 3. Os valores variam muito entre si?
 4. O consumo segue algum padrão entre as regiões?
 
-## Tarefas
+# Tarefas
 
-### Parte 1: cálculo de estatísticas básicas
+## Cálculo de estatísticas básicas
 
 Para cada região, determine:
 
@@ -36,7 +38,7 @@ Para cada região, determine:
 2. Maior e menor valor
 3. Se o consumo médio é acima de 150 kWh/mês
 
-### Parte 2: função de classificação
+## Função de classificação
 
 Crie uma função que recebe uma região como parâmetro e retorna:
 
@@ -44,12 +46,12 @@ Crie uma função que recebe uma região como parâmetro e retorna:
 2. "MODERADO" se entre 130 e 170 kWh
 3. "BAIXO" se < 130 kWh
 
-### Parte 3: aplicação da função a todas as regiões
+## Aplicação da função a todas as regiões
 
 Aplique a função acima para todas as regiões e salve o resultado em um
 dicionário.
 
-### Parte 4: visualização
+## Visualização
 
 Gere um gráfico de barras mostrando:
 
