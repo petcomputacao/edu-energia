@@ -1,4 +1,4 @@
-/* Estilos básicos */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
@@ -14,12 +14,45 @@ body {
     padding: 20px 0;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #0056b3;
-    color: white;
+    background: linear-gradient(135deg, #0b003d 0%, #1a0066 100%);
+    color: #ffffff;
     text-align: center;
-    padding: 40px 0;
+    padding: 60px 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px; 
+}
+
+.logo {
+    max-width: 140px;
+    margin-bottom: 0; 
+    filter: drop-shadow(0 4px 6px rgba(0,0,0,0.3)); 
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+header p {
+    margin: 0;
+    font-size: 1.15rem;
+    color: #dce1f5; 
+    max-width: 900px;
 }
 
 .logo {
@@ -27,7 +60,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* Seções */
 section {
     margin: 40px 0;
 }
@@ -38,14 +70,12 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* Grid de informações */
 .info-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
 }
 
-/* Botões */
 .button {
     display: inline-block;
     background-color: #0056b3;
@@ -60,7 +90,6 @@ h2 {
     background-color: #003d7a;
 }
 
-/* Formulário */
 input[type="email"] {
     padding: 10px;
     width: 300px;
@@ -68,10 +97,191 @@ input[type="email"] {
     margin-right: 10px;
 }
 
-/* Rodapé */
 footer {
-    background-color: #f5f5f5;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+    background-color: #f8f9fa; 
+    border-top: 1px solid #e1e4e8; 
+    padding: 25px 0;
+    margin-top: 60px;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+@media (min-width: 768px) {
+    footer .container {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #003d7a;
+    text-decoration: underline;
+}
+
+.materiais-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+.material-card {
+    background: #f9f9f9;
+    border: 1px solid #dde3ec;
+    border-radius: 8px;
+    padding: 20px 24px;
+}
+.material-card h3 {
+    color: #0056b3;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+.material-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.material-card ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #e8ecf2;
+    font-size: 14px;
+}
+.material-card ul li:last-child { border-bottom: none; }
+.material-card ul li a { color: #0056b3; }
+.material-card ul li a:hover { text-decoration: underline; }
+
+
+.trilha-intro {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.level-tabs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.level-btn {
+    padding: 9px 20px;
+    border-radius: 24px;
+    border: 1.5px solid #c5d4ea;
+    background: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: #0056b3;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+.level-btn:hover {
+    background: #e8f0fb;
+    border-color: #0056b3;
+}
+.level-btn.active {
+    background: #0056b3;
+    border-color: #0056b3;
+    color: #fff;
+    font-weight: 600;
+}
+
+.level-panel { display: none; }
+.level-panel.active { display: block; }
+
+.unit-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.unit-card {
+    background: #fff;
+    border: 1px solid #dde3ec;
+    border-radius: 10px;
+    padding: 18px 22px;
+}
+.unit-card.final {
+    border-color: #1a7a4a;
+    background: #edf7f2;
+}
+
+.unit-card-top {
+    margin-bottom: 4px;
+}
+
+.unit-name {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1a1a2e;
+}
+.unit-card.final .unit-name { color: #1a7a4a; }
+
+.unit-desc {
+    font-size: 13px;
+    color: #666;
+    margin: 4px 0 12px;
+}
+
+.skip-badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #9a6000;
+    background: #fdf3dc;
+    border: 1px solid #f5d98a;
+    border-radius: 5px;
+    padding: 2px 8px;
+    margin-bottom: 8px;
+    letter-spacing: 0.02em;
+}
+
+.unit-links {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.unit-link {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 14px;
+    border-radius: 5px;
+    border: 1.5px solid #c5d4ea;
+    color: #0056b3;
+    background: #f0f5fc;
+    text-decoration: none;
+    transition: background 0.12s, border-color 0.12s;
+}
+.unit-link:hover {
+    background: #d6e4f7;
+    border-color: #0056b3;
+    text-decoration: none;
+}
+.unit-card.final .unit-link {
+    background: #1a7a4a;
+    border-color: #1a7a4a;
+    color: #fff;
+}
+.unit-card.final .unit-link:hover {
+    background: #145e38;
+    border-color: #145e38;
 }

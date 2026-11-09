@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
         <div class="container">
             <img src="assets/logo.png" alt="Logo do Minicurso" class="logo">
@@ -16,9 +17,11 @@
     </header>
 
     <main class="container">
+
+        
         <section id="sobre">
             <h2>Sobre o Minicurso</h2>
-            <p> O objetivo deste curso é capacitar os participantes a coletar,
+            <p>O objetivo deste curso é capacitar os participantes a coletar,
               classificar, visualizar e analisar dados de consumo de energia
               elétrica, permitindo um ferramental base para intervir sobre a
               realidade. Para cumprir esse objetivo, fornecemos um ambiente de
@@ -26,20 +29,10 @@
               eletricidade e estatística utilizando dados reais do SmartCampus
               UFCG. Nesse sentido, utilizamos a metodologia do ensino baseado em
               problemas (PBL, na sigla em inglês) para criar um ambiente
-              imersivo e o mais próximo possível de situações reais.
+              imersivo e o mais próximo possível de situações reais.</p>
         </section>
 
-        <section id="conteudo">
-            <h2>Conteúdo Programático</h2>
-            <ul>
-                <li>Introdução à lógica de programação</li>
-                <li>Introdução à linguagem Python</li>
-                <li>Introdução à biblioteca Matplotlib</li>
-                <li>Introdução à eletricidade</li>
-                <li>Análise descritiva de dados (tabelas, gráficos, síntese numérica, entre outros)</li>
-            </ul>
-        </section>
-
+       
         <section id="materiais">
             <h2>Materiais do Curso</h2>
             <div class="materiais-grid">
@@ -47,41 +40,317 @@
                     <h3>Documentos e materiais</h3>
                     <ul>
                         <li><a href="assets/plano-de-curso.pdf" target="_blank">Plano de curso</a></li>
-                        <li><a href="assets/dados.csv" target="_blank">Dados do SmartCampus UFCG</a></li>
-                        <li><a href="assets/dicionario.pdf" target="_blank">Dicionário dos dados</a></li>
+                        <li><a href="#" data-link="dados" target="_blank">Dados do SmartCampus UFCG</a></li>
+                        <li><a href="#" data-link="dicionario" target="_blank">Dicionário dos dados</a></li>
                         <li><a href="assets/roadmap.pdf" target="_blank">Roadmap</a></li>
                     </ul>
                 </div>
-
                 <div class="material-card">
-                    <h3>Notebooks Colab</h3>
+                    <h3>Conteúdo</h3>
                     <ul>
-                        <li><a href="https://colab.research.google.com/drive/1ASKuO8hR9m3l863_5dGSccIjKP4KPqbb?usp=sharing" target="_blank">Unidade 1 - Lógica de programação e linguagem Python</a></li>
-                        <li><a href="https://colab.research.google.com/drive/1qs_znvimcriPezOV4vOGyS9zk1Rcs8Hg?usp=sharing" target="_blank">Unidade 2 - Eletricidade e análise de dados</a></li>
-                        <li><a href="https://colab.research.google.com/drive/1e3EBZ5mREmAHOAbp8TggHGFMPK5VrTM8?usp=sharing" target="_blank">Unidade 3 - Análise descritiva de dados (tabelas e gráficos)</a></li>
-                        <li><a href="https://colab.research.google.com/drive/1UFeVv8lfyRd0gOGzYXMjhlzG58pqw2DV?usp=sharing" target="_blank">Unidade 4 - Análise descritiva de dados (síntese numérica)</a></li>
+                        <li><a href="#" data-link="unidade0" target="_blank">Unidade 0 - Introdução ao Google Colab</a></li>
+                        <li><a href="#" data-link="unidade1" target="_blank">Unidade 1 - Lógica de programação e linguagem Python</a></li>
+                        <li><a href="#" data-link="unidade2" target="_blank">Unidade 2 - Eletricidade e análise de dados</a></li>
+                        <li><a href="#" data-link="unidade3" target="_blank">Unidade 3 - Análise descritiva de dados (tabelas e gráficos)</a></li>
+                        <li><a href="#" data-link="unidade4" target="_blank">Unidade 4 - Análise descritiva de dados (síntese numérica)</a></li>
                     </ul>
                 </div>
-                
                 <div class="material-card">
                     <h3>Desafios</h3>
                     <ul>
-                        <li><a href="assets/desafio-1.pdf" target="_blank">Desafio - Unidade 1</a></li>
-                        <li><a href="assets/desafio-2.pdf" target="_blank">Desafio - Unidade 2</a></li>
-                        <li><a href="assets/desafio-3.pdf" target="_blank">Desafio - Unidade 3</a></li>
-                        <li><a href="assets/desafio-4.pdf" target="_blank">Desafio - Unidade 4</a></li>
-                        <li><a href="assets/desafio-final.pdf" target="_blank">Desafio - Final</a></li>
+                        <li><a href="#" data-link="desafio1" target="_blank">Desafio 1</a></li>
+                        <li><a href="#" data-link="desafio2" target="_blank">Desafio 2</a></li>
+                        <li><a href="#" data-link="desafio3" target="_blank">Desafio 3</a></li>
+                        <li><a href="#" data-link="desafio4" target="_blank">Desafio 4</a></li>
+                        <li><a href="#" data-link="desafioFinal" target="_blank">Desafio Final</a></li>
                     </ul>
                 </div>
             </div>
         </section>
+
+        
+        <section id="trilha">
+            <h2>Comece pela sua trilha</h2>
+            <p class="trilha-intro">
+            <!-- Botões de nível -->
+            <div class="level-tabs">
+                <button class="level-btn active" data-level="zero" onclick="setLevel('zero')">Nunca programei</button>
+                <button class="level-btn" data-level="basic" onclick="setLevel('basic')">Conheço Python básico</button>
+                <button class="level-btn" data-level="fluent" onclick="setLevel('fluent')">Fluente em Python</button>
+            </div>
+
+            <!-- ─── TRILHA: Nunca programei ─── -->
+            <div class="level-panel active" id="panel-zero">
+                <div class="unit-list">
+                    
+                    <div class="unit-card">
+                        <div class="unit-card-top">
+                            <span class="unit-name">Unidade 0 — Introdução ao Google Colab</span>
+                        </div>
+                        <p class="unit-desc">
+                            Aprenda a utilizar o Google Colab: executar células,
+                            editar códigos, salvar notebooks e compartilhar projetos.
+                        </p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade0" target="_blank">
+                                Conteúdo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 1 — Lógica de programação e Python</span></div>
+                        <p class="unit-desc">Primeiros passos: variáveis, loops, funções e a sintaxe do Python.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade1" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz1" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio1" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao1" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 2 — Eletricidade e análise de dados</span></div>
+                        <p class="unit-desc">Fundamentos sobre eletricidade e primeiras análises com dados reais do SmartCampus.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade2" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="dados" target="_blank">Dados</a>
+                            <a class="unit-link" href="#" data-link="dicionario" target="_blank">Dicionário</a>
+                            <a class="unit-link" href="#" data-link="quiz2" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio2" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao2" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 3 — Análise descritiva: tabelas e gráficos</span></div>
+                        <p class="unit-desc">Visualização de dados com Matplotlib: gráficos de linha, barras e dispersão.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade3" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz3" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio3" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao3" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 4 — Análise descritiva: síntese numérica</span></div>
+                        <p class="unit-desc">Média, mediana, desvio padrão e outras estatísticas descritivas.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade4" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz4" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio4" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao4" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card final">
+                        <div class="unit-card-top"><span class="unit-name">Desafio Final</span></div>
+                        <p class="unit-desc">Projeto integrador: análise completa com os dados do SmartCampus.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="desafioFinal" target="_blank">Acessar desafio</a>
+                            <a class="unit-link" href="#" data-link="solucaofinal" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ─── TRILHA: Python básico ─── -->
+            <div class="level-panel" id="panel-basic">
+                <div class="unit-list">
+                    <div class="unit-card">
+                        <div class="unit-card-top">
+                            <span class="unit-name">Unidade 0 — Introdução ao Google Colab</span>
+                        </div>
+                        <p class="unit-desc">
+                            Aprenda a utilizar o Google Colab: executar células,
+                            editar códigos, salvar notebooks e compartilhar projetos.
+                        </p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade0" target="_blank">
+                                Conteúdo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <span class="skip-badge">↩ pode pular</span>
+                        <div class="unit-card-top"><span class="unit-name">Unidade 1 — Lógica de programação e Python</span></div>
+                        <p class="unit-desc">Você já domina os fundamentos — volte aqui só se sentir necessidade.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade1" target="_blank">Conteúdo</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 2 — Eletricidade e análise de dados ← comece aqui</span></div>
+                        <p class="unit-desc">Fundamentos sobre eletricidade e primeiras análises com dados reais do SmartCampus.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade2" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="dados" target="_blank">Dados</a>
+                            <a class="unit-link" href="#" data-link="dicionario" target="_blank">Dicionário</a>
+                            <a class="unit-link" href="#" data-link="quiz2" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio2" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao2" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 3 — Análise descritiva: tabelas e gráficos</span></div>
+                        <p class="unit-desc">Visualização de dados com Matplotlib: gráficos de linha, barras e dispersão.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade3" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz3" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio3" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao3" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 4 — Análise descritiva: síntese numérica</span></div>
+                        <p class="unit-desc">Média, mediana, desvio padrão e outras estatísticas descritivas.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade4" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz4" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio4" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao4" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card final">
+                        <div class="unit-card-top"><span class="unit-name">Desafio Final</span></div>
+                        <p class="unit-desc">Projeto integrador: análise completa com os dados do SmartCampus.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="desafioFinal" target="_blank">Acessar desafio</a>
+                            <a class="unit-link" href="#" data-link="solucaofinal" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ─── TRILHA: Fluente em Python ─── -->
+            <div class="level-panel" id="panel-fluent">
+                <div class="unit-list">
+                    <div class="unit-card">
+                        <span class="skip-badge">↩ leitura rápida</span>
+                        <div class="unit-card-top">
+                            <span class="unit-name">Unidade 0 — Introdução ao Google Colab</span>
+                        </div>
+                        <p class="unit-desc">
+                            Aprenda a utilizar o Google Colab: executar células,
+                            editar códigos, salvar notebooks e compartilhar projetos.
+                        </p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade0" target="_blank">
+                                Conteúdo
+                            </a>
+                        </div>
+                    </div>
+                    <div class="unit-card">
+                        <span class="skip-badge">↩ pode pular</span>
+                        <div class="unit-card-top"><span class="unit-name">Unidade 1 — Lógica de programação e Python</span></div>
+                        <p class="unit-desc">Conteúdo introdutório.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade1" target="_blank">Conteúdo</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <span class="skip-badge">↩ pode pular o código — leia o contexto</span>
+                        <div class="unit-card-top"><span class="unit-name">Unidade 2 — Eletricidade e análise de dados</span></div>
+                        <p class="unit-desc">Vale ler a introdução sobre eletricidade e o dicionário dos dados antes de avançar.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade2" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="dados" target="_blank">Dados</a>
+                            <a class="unit-link" href="#" data-link="dicionario" target="_blank">Dicionário</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 3 — Análise descritiva: tabelas e gráficos ← comece aqui</span></div>
+                        <p class="unit-desc">Foco em análise visual — Matplotlib, Pandas e interpretação dos dados.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade3" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz3" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio3" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao3" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card">
+                        <div class="unit-card-top"><span class="unit-name">Unidade 4 — Análise descritiva: síntese numérica</span></div>
+                        <p class="unit-desc">Estatísticas descritivas e interpretação dos resultados.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="unidade4" target="_blank">Conteúdo</a>
+                            <a class="unit-link" href="#" data-link="quiz4" target="_blank">Quiz</a>
+                            <a class="unit-link" href="#" data-link="desafio4" target="_blank">Desafio</a>
+                            <a class="unit-link" href="#" data-link="solucao4" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                    <div class="unit-card final">
+                        <div class="unit-card-top"><span class="unit-name">Desafio Final</span></div>
+                        <p class="unit-desc">Projeto integrador: análise completa com os dados do SmartCampus.</p>
+                        <div class="unit-links">
+                            <a class="unit-link" href="#" data-link="desafioFinal" target="_blank">Acessar desafio</a>
+                            <a class="unit-link" href="#" data-link="solucaofinal" target="_blank">Solução</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
     </main>
 
     <footer>
         <div class="container">
-            <p>© 2025 Minicurso de Educação em Dados de Energia</p>
-            <p>Contato: pet@ccc.ufcg.edu.br</p>
+            <p>© 2026 Minicurso de Educação em Dados de Energia</p>
+            <p>Contato: <a href="mailto:pet@ccc.ufcg.edu.br">pet@ccc.ufcg.edu.br</a></p>
         </div>
     </footer>
+
+    <!-- Troca de trilha -->
+    <script>
+        function setLevel(level) {
+            document.querySelectorAll('.level-panel').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById('panel-' + level).classList.add('active');
+            document.querySelector('[data-level="' + level + '"]').classList.add('active');
+        }
+    </script>
+
+    <!-- Links centralizados -->
+    <script>const LINKS={
+        unidade0:"https://colab.research.google.com/drive/1QkBM7VH2e27hdFCwB5bpXIU_ahDcm1E2",
+        unidade1:"https://colab.research.google.com/drive/1KU1OpU4ObtaG9Y2qvd02d3ywzhoFUgEw",
+        unidade2:"https://colab.research.google.com/drive/14A9D-_xONI7mvbw-fd-e1YZ7UIXznbmj",
+        unidade3:"https://colab.research.google.com/drive/1L6u3W5-jb_KMiS3A641MMlYokVRM1S0i#scrollTo=6a21d544",
+        unidade4:"https://colab.research.google.com/drive/1xR4GBk5rV1FFxiz13mU6c_ZQ6HgaIPQp#scrollTo=816fd0ad",
+        
+        desafio1:"https://colab.research.google.com/drive/1WXQMF2oC6sodpIgCiTUSvj0UO2ybeCUH?usp=sharing",
+        desafio2:"https://colab.research.google.com/drive/1n3zS_bzM5N5RSqXTMuzZlzWVVD5Y90fl",
+        desafio3:"https://colab.research.google.com/drive/1p0UP0TvMhtifPpOXOVqIcOawkM0GNEP3",
+        desafio4:"https://colab.research.google.com/drive/1exs54say7mGaLZzowwzeMIcdLr8e0DNP",
+        desafioFinal:"https://colab.research.google.com/drive/1SXd45QDoMiLjxgXbB2bwx9P0UXzTXj-o",
+
+        quiz1: "https://tally.so/r/xXLNlr",
+        quiz2: "https://tally.so/r/kd86Vd",
+        quiz3: "https://tally.so/r/9qAWxX",
+        quiz4: "https://tally.so/r/b517be",
+
+        solucao1: "https://colab.research.google.com/drive/179dm2lR3HZ2lmg3KZKU0Rykc-0SSeQu8?usp=sharing",
+        solucao2: "https://colab.research.google.com/drive/1X-v_COvGvepJx83WsKJaJg9A9w0d2gm6?usp=sharing",
+        solucao3: "https://colab.research.google.com/drive/1TeIK6JweaKGA6eeaGFjY9GkgCV7rOq_W?usp=sharing",
+        solucao4: "https://colab.research.google.com/drive/1n9eZA8buOfqpsoNw3JZW5SFpSe_VdYQK?usp=sharing",
+        solucaofinal: "https://colab.research.google.com/drive/1tm4FKcVo6xyskzQ80XZK8Qym1cUzdcuh?usp=sharing",
+
+        dados:"assets/dados.csv",
+        dicionario:"assets/dicionario.pdf"
+        };
+        document.querySelectorAll("[data-link]").forEach(a=>a.href=LINKS[a.dataset.link]);
+    </script>
+
 </body>
 </html>
